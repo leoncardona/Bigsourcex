@@ -1,0 +1,51 @@
+.tag {
+  background-color: rgba(var(--color-primary-rgb), 0.3);
+  border-radius: 10rem;
+  padding: 0.25rem 1rem;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: rgba(var(--color-primary-rgb), 0.5);
+    cursor: pointer;
+  }
+}
+
+.tag-active {
+  transform: scale(1.05);
+  background-color: rgba(var(--color-primary-rgb), 0.65);
+}
+
+.text {
+  opacity: 0.8;
+  font-weight: 600;
+  user-select: none;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.text-active {
+  opacity: 1;
+}
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .text {
+    font-size: 1.4rem;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+  .text {
+    font-size: 1.6rem;
+  }
+}

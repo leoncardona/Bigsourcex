@@ -1,0 +1,130 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Integral CF", sans-serif;
+  font-weight: normal;
+  margin: 0;
+
+  span {
+    color: var(--color-primary);
+  }
+}
+
+.subtitle {
+  margin: 0;
+  text-align: center;
+  text-wrap: balance;
+  opacity: 0.8;
+}
+
+.tags-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+    linear-gradient(to bottom, #80808012 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Phone */
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 3rem 1.5rem;
+    gap: 3rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 2.2rem;
+  }
+
+  .tags-container {
+    gap: 0.75rem;
+  }
+
+  .resources-container {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  main {
+    padding: 3rem 1.5rem;
+    gap: 4rem;
+  }
+
+  .title {
+    font-size: 6rem;
+  }
+
+  .subtitle {
+    font-size: 4rem;
+    width: 80%;
+  }
+
+  .tags-container {
+    gap: 1rem;
+    width: 70%;
+  }
+
+  .resources-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+  main {
+    padding: 3rem 1.5rem;
+    gap: 4.5rem;
+  }
+
+  .title {
+    font-size: 5.5rem;
+  }
+
+  .subtitle {
+    font-size: 4rem;
+    width: 60%;
+  }
+
+  .tags-container {
+    gap: 0.75rem;
+  }
+
+  .resources-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+@font-face {
+  font-family: "Integral CF";
+  src: url("/fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff2")
+      format("woff2"),
+    url("/fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

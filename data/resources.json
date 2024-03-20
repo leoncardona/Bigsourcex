@@ -1,0 +1,128 @@
+[
+    {
+        "title": "Astro",
+        "description": "Frontend framework",
+        "tags": ["technology"],
+        "image": "/images/astro.webp",
+        "link": "https://astro.build/"
+    },
+    {
+        "title": "Boxicons",
+        "description": "Icon gallery",
+        "tags": ["icons"],
+        "image": "/images/boxicons.webp",
+        "link": "https://boxicons.com/"
+    },
+    {
+        "title": "Fontsource",
+        "description": "Font library",
+        "tags": ["fonts"],
+        "image": "/images/fontsource.webp",
+        "link": "https://fontsource.org/"
+    },
+    {
+        "title": "Shadcn",
+        "description": "React component library",
+        "tags": ["components"],
+        "image": "/images/shadcn.webp",
+        "link": "https://ui.shadcn.com/"
+    },
+    {
+        "title": "Tailblocks",
+        "description": "Tailwind components",
+        "tags": ["components"],
+        "image": "/images/tailblocks.webp",
+        "link": "https://tailblocks.cc/"
+    },
+    {
+        "title": "Tailwind UI",
+        "description": "Tailwind components",
+        "tags": ["components"],
+        "image": "/images/tailwindui.webp",
+        "link": "https://tailwindui.com/"
+    },
+    {
+        "title": "Tabler icons",
+        "description": "Icon gallery",
+        "tags": ["icons"],
+        "image": "/images/tablericons.webp",
+        "link": "https://tabler.io/icons"
+    },
+    {
+        "title": "SVGOMG",
+        "description": "SVG optimizer",
+        "tags": ["images"],
+        "image": "/images/svgomg.webp",
+        "link": "https://jakearchibald.github.io/svgomg/"
+    },
+    {
+        "title": "Shots",
+        "description": "Screenshot tool",
+        "tags": ["images"],
+        "image": "/images/shots.webp",
+        "link:": "https://shots.so/"
+    },
+    {
+        "title": "Flowbite",
+        "description": "Tailwind components",
+        "tags": ["components"],
+        "image": "/images/flowbite.webp",
+        "link": "https://flowbite.com/"
+    },
+    {
+        "title": "Northflank",
+        "description": "Deployment platform",
+        "tags": ["deployment"],
+        "image": "/images/northflank.webp",
+        "link": "https://northflank.com/"
+    },
+    {
+        "title": "Phind",
+        "description": "AI for complex questions",
+        "tags": ["AI"],
+        "image": "/images/phind.webp",
+        "link": "https://phind.com/"
+    },
+    {
+        "title": "Quicktype",
+        "description": "JSON to typescript types",
+        "tags": ["tools"],
+        "image": "/images/quicktype.webp",
+        "link": "https://quicktype.io/"
+    },
+    {
+        "title": "Excalidraw",
+        "description": "Whiteboard tool",
+        "tags": ["tools"],
+        "image": "/images/excalidraw.webp",
+        "link": "https://excalidraw.com/"
+    },
+    {
+        "title": "Figma",
+        "description": "Design tool",
+        "tags": ["technology"],
+        "image": "/images/figma.webp",
+        "link": "https://www.figma.com/"
+    },
+    {
+        "title": "Carbon",
+        "description": "Code screenshots",
+        "tags": ["tools"],
+        "image": "/images/carbon.webp",
+        "link": "https://carbon.now.sh/"
+    },
+    {
+        "title": "Galileo AI",
+        "description": "Generate interfaces from text",
+        "tags": ["AI"],
+        "image": "/images/galileo.webp",
+        "link": "https://www.usegalileo.ai/"
+    },
+    {
+        "title": "Squoosh",
+        "description": "Image optimizer",
+        "tags": ["images"],
+        "image": "/images/squoosh.webp",
+        "link": "https://squoosh.app/"
+    }
+]
