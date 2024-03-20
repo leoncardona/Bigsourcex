@@ -7,19 +7,22 @@ import "./styles/Home.css";
 import { useState } from "preact/hooks";
 
 const Home = () => {
-  const [currentResources, setResources] = useState<Resource[]>(resources);
-  const [activeTag, setActiveTag] = useState<string>("all"); // Estado para mantener el tag activo
+  const [currentResources, setResources] = useState<Resource[]>(
+    resources as Resource[]
+  );
+
+  const [activeTag, setActiveTag] = useState<string>("all");
 
   const filterResources = (tag: string) => {
     if (tag === "all") {
-      setResources(resources);
+      setResources(resources as Resource[]);
     } else {
       const filteredResources = resources.filter((resource) =>
         resource.tags.includes(tag)
       );
-      setResources(filteredResources);
+      setResources(filteredResources as Resource[]);
     }
-    setActiveTag(tag); // Actualiza el estado del tag activo
+    setActiveTag(tag);
   };
 
   return (
@@ -32,7 +35,7 @@ const Home = () => {
         {tags.map((tag, index) => (
           <Tag
             key={index}
-            active={tag === activeTag} // Pasa el estado activo como prop
+            active={tag === activeTag}
             onClick={() => filterResources(tag)}
           >
             {tag}
