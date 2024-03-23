@@ -124,5 +124,12 @@
         "tags": ["images"],
         "image": "/images/squoosh.webp",
         "link": "https://squoosh.app/"
+    },
+    {
+        "title": "Minimal Gallery",
+        "description": "Website gallery",
+        "tags": ["inspiration"],
+        "image": "/images/minimalgallery.webp",
+        "link": "https://minimal.gallery/"
     }
 ]
